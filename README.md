@@ -21,5 +21,4 @@
 - Keep the original 10,000-image test split as clean test data.
 - The current shifted-test scaffold applies rotation, brightness/contrast changes, and a rectangular occlusion covering approximately 25% of the image.
 
-## Important
-The instructor's additional hidden corruption was not included in the available instructions. Add the exact specified corruption before claiming full shifted-test compliance. The required Cutout/Random Erasing and Mixup/CutMix ablations are marked as TODOs. No results are fabricated in this repository; populate the report only after executing your experiments. Select settings using validation results, not test-set performance.
+
